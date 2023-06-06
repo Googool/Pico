@@ -1,10 +1,14 @@
-#include "esp_log.h"
+#include "header.h"
 
-#define LOG_LEVEL_LOCAL ESP_LOG_VERBOSE
-#define LOG_TAG "MAIN"
+#define LED_BUILTIN 13
 
-extern "C" void app_main(void) {
-    for (;;) {
-        //
-    };
+void setup(void) {
+    pinMode(LED_BUILTIN, OUTPUT);
+};
+
+void loop(void) {
+    digitalWrite(LED_BUILTIN, HIGH);
+    delay(1000);
+    digitalWrite(LED_BUILTIN, LOW);
+    delay(1000);
 };

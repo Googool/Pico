@@ -1,3 +1,4 @@
 .vscode/
 build/
+mklittlefs/mklittlefs.exe
 sdkconfig.esp32
