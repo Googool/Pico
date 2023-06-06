@@ -1,0 +1,8 @@
+{
+    "ssid": "SSID",
+    "password": "PASSWORD",
+    "wifimode": "WIFI_STA",
+    "hostname": "Pico",
+    "attempts": 10,
+    "delay": 500
+}

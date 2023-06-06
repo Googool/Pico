@@ -1,1 +1,2 @@
-# Code for ESP32 with 3.4' screen
+# Remake this repository.
+> I cannot seem to update (or remove) all of the files.
